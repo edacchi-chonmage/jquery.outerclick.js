@@ -1,7 +1,6 @@
-(function (jQuery) {
+;(function ($) {
 	var
 		Outerclick,
-		$ = jQuery,
 		$html = $('html'),
 		$body = $('body'),
 		handler = typeof $().on ? 'on' : 'bind';
