@@ -2,7 +2,6 @@
 	var
 		Outerclick,
 		$html = $('html'),
-		$body = $('body'),
 		handler = typeof $().on ? 'on' : 'bind';
 
 	Outerclick = function ($elementTarget, functionCall) {
